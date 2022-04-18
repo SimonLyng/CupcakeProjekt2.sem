@@ -1,0 +1,184 @@
+/* CSS stylesheet for application */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Blippo, fantasy";
+    color: navajowhite;
+    text-transform: uppercase;
+    overflow-x: hidden;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+h1 {
+    text-align: center;
+}
+
+h4 {
+    text-align: center;
+}
+
+.navbar-brand {
+   vertical-align: middle;
+}
+
+
+/* Frontpage */
+.frontpage {
+    background-image: url(../images/cupdqwcwqvewr.jpg);
+    background-size: contain;
+}
+
+.booking-form-box {
+    position: relative;
+    max-width: 350px;
+    border: 3px black;
+    margin: 1% auto 0;
+    border-radius: 25px;
+}
+
+.dropdown {
+    position: relative;
+    display: block;
+    font-family: "Blippo, fantasy";
+    color: white;
+
+}
+
+.dropdown-content {
+    position: center;
+    text-align: center;
+    background-color: #9a0b41;
+    min-width: 160px;
+    box-shadow: 0px 12px 20px 0px rgba(0,0,0,0.5);
+    padding: 0 20px 20px;
+    border-radius: 20px;
+
+}
+
+.dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+}
+
+label {
+    margin-bottom: 5px;
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+input[type="number"] {
+    width: 50px;
+}
+
+input[type="submit"] {
+    width: 250px;
+    font-size: 20px;
+    background-color: #9a0b41;
+    border-radius: 25px;
+    margin: 1% auto 0;
+}
+
+select {
+    width: 175px;
+}
+
+/* Login page */
+.login {
+    background-color: #9a0b41;
+}
+
+.form{
+    max-width:400px;
+}
+
+input{
+    margin-bottom:4px;
+}
+
+.form-control{
+    border-radius:0px;
+    text-transform: none !important;
+}
+
+.form-control:focus{
+    box-shadow: none !important;
+}
+
+.opretBruger{
+    text-decoration-line:none;
+}
+
+
+/* Cart design */
+table {
+    position: center;
+    text-align: center;
+    background-color: #9a0b41;
+    min-width: 160px;
+    box-shadow: 0px 12px 20px 0px rgba(0,0,0,0.5);
+    padding: 0 20px 20px;
+    border-radius: 20px;
+
+}
+
+#fjern {
+    width: 70px;
+    font-size: 16px;
+    background-color: #9a0b41;
+    border-radius: 25px;
+    margin: 1% auto 0;
+}
+
+#buy {
+    width: 120px;
+    font-size: 20px;
+    background-color: #9a0b41;
+    border-radius: 25px;
+    margin: 1% auto 0;
+}
+
+#returnToCart {
+    width: 150px;
+    font-size: 15px;
+    background-color:#9a0b41;
+    border-radius: 25px;
+    margin: 1% auto 0;
+}
+
+/*#confirmQ {*/
+/*    width: 60px;*/
+/*    font-size: 10px;*/
+/*    background-color: #f5c041;*/
+/*    border-radius: 25px;*/
+/*}*/
+
+/*#btIncr {*/
+/*    width: 25px;*/
+/*    font-size: 20px;*/
+/*    background-color: #f8db95;*/
+/*    border-radius: 25px;*/
+/*    margin: 1% auto 0;*/
+/*}*/
+
+/*#btDecr {*/
+/*    width: 25px;*/
+/*    font-size: 20px;*/
+/*    background-color: #f8db95;*/
+/*    border-radius: 25px;*/
+/*    margin: 1% auto 0;*/
+/*}*/
+
+
+
+
+
+
+
+
+
+
+
