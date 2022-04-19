@@ -1,0 +1,734 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>C:/Users/simon/Desktop/CupcakeProjekt2.sem/cupcake-main</OriginalElement>
+  <nodes>
+    <node x="1457.7243346007604" y="306.0">dat.startcode.model.persistence.ConnectionPool</node>
+    <node x="1413.2243346007601" y="67.5">dat.startcode.model.exceptions.DatabaseException</node>
+    <node x="1870.9743346007604" y="750.0">dat.startcode.control.CreateUserServlet</node>
+    <node x="1184.6202471482877" y="750.0">dat.startcode.control.RemoveFromCart</node>
+    <node x="2509.141001267427" y="22.0">dat.startcode.model.entities.User</node>
+    <node x="1632.9743346007604" y="750.0">dat.startcode.control.AdminPanel</node>
+    <node x="330.1042458808614" y="542.5">dat.startcode.model.persistence.IOrderMapper</node>
+    <node x="594.8702471482877" y="739.0">dat.startcode.control.BuyServlet</node>
+    <node x="348.0" y="750.0">dat.startcode.model.persistence.OrderMapper</node>
+    <node x="1546.2243346007604" y="530.0">dat.startcode.model.persistence.AdminMapper</node>
+    <node x="2402.958333333333" y="706.0">dat.startcode.persistence.UserMapperTest</node>
+    <node x="187.60424588086153" y="339.0">dat.startcode.control.Cart</node>
+    <node x="0.0" y="750.0">dat.startcode.control.AddToShoppingCart</node>
+    <node x="628.2452471482877" y="530.0">dat.startcode.model.persistence.CupcakeMapper</node>
+    <node x="1308.2243346007604" y="530.0">dat.startcode.model.config.ApplicationStart</node>
+    <node x="2352.641001267427" y="530.0">dat.startcode.model.persistence.UserMapper</node>
+    <node x="218.72433460076036" y="0.0">dat.startcode.model.entities.OrderLine</node>
+    <node x="465.7292458808614" y="306.0">dat.startcode.model.entities.Order</node>
+    <node x="2497.115335868187" y="351.5">dat.startcode.model.persistence.IUserMapper</node>
+    <node x="1070.2243346007604" y="530.0">dat.startcode.control.Logout</node>
+    <node x="2108.9743346007604" y="750.0">dat.startcode.control.Login</node>
+    <node x="832.8702471482877" y="750.0">dat.startcode.control.CupcakeServlet</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="dat.startcode.control.Login" target="dat.startcode.model.entities.User" relationship="DEPENDENCY">
+      <point x="-72.66666666666674" y="-27.0" />
+      <point x="2145.307667934094" y="685.0" />
+      <point x="2115.7195817490483" y="685.0" />
+      <point x="2115.7195817490483" y="605.0" />
+      <point x="2137.620247148288" y="605.0" />
+      <point x="2137.620247148288" y="468.0" />
+      <point x="2368.636248415715" y="468.0" />
+      <point x="2368.636248415715" y="205.0" />
+      <point x="2488.391001267427" y="205.0" />
+      <point x="2488.391001267427" y="195.0" />
+      <point x="2543.141001267427" y="195.0" />
+      <point x="-34.0" y="60.0" />
+    </edge>
+    <edge source="dat.startcode.model.persistence.CupcakeMapper" target="dat.startcode.model.entities.Order" relationship="DEPENDENCY">
+      <point x="-72.66666666666669" y="-27.0" />
+      <point x="664.578580481621" y="508.0" />
+      <point x="733.9583333333334" y="508.0" />
+      <point x="733.9583333333334" y="468.0" />
+      <point x="517.7243346007602" y="468.0" />
+      <point x="-51.0" y="60.0" />
+    </edge>
+    <edge source="dat.startcode.persistence.UserMapperTest" target="dat.startcode.model.persistence.ConnectionPool" relationship="CREATE">
+      <point x="0.0" y="-71.0" />
+      <point x="2511.458333333333" y="685.0" />
+      <point x="2610.740335868187" y="685.0" />
+      <point x="2610.740335868187" y="478.0" />
+      <point x="2122.620247148288" y="478.0" />
+      <point x="2122.620247148288" y="448.0" />
+      <point x="1587.7243346007604" y="448.0" />
+      <point x="52.0" y="60.0" />
+    </edge>
+    <edge source="dat.startcode.model.persistence.CupcakeMapper" target="dat.startcode.model.entities.OrderLine" relationship="DEPENDENCY">
+      <point x="-72.66666666666669" y="-27.0" />
+      <point x="664.578580481621" y="508.0" />
+      <point x="733.9583333333334" y="508.0" />
+      <point x="733.9583333333334" y="265.0" />
+      <point x="670.3076679340936" y="265.0" />
+      <point x="670.3076679340936" y="215.0" />
+      <point x="325.391001267427" y="215.0" />
+      <point x="42.66666666666666" y="82.0" />
+    </edge>
+    <edge source="dat.startcode.control.Login" target="dat.startcode.model.persistence.UserMapper" relationship="CREATE">
+      <point x="72.66666666666663" y="-27.0" />
+      <point x="2290.641001267427" y="675.0" />
+      <point x="2173.7195817490483" y="675.0" />
+      <point x="2173.7195817490483" y="645.0" />
+      <point x="2407.141001267427" y="645.0" />
+      <point x="-54.5" y="27.0" />
+    </edge>
+    <edge source="dat.startcode.model.persistence.OrderMapper" target="dat.startcode.model.persistence.ConnectionPool" relationship="DEPENDENCY">
+      <point x="27.25" y="-27.0" />
+      <point x="484.25" y="685.0" />
+      <point x="528.7243346007602" y="685.0" />
+      <point x="528.7243346007602" y="498.0" />
+      <point x="1200.1153358681865" y="498.0" />
+      <point x="1200.1153358681865" y="468.0" />
+      <point x="1483.7243346007604" y="468.0" />
+      <point x="-52.0" y="60.0" />
+    </edge>
+    <edge source="dat.startcode.model.persistence.IOrderMapper" target="dat.startcode.model.entities.Order" relationship="DEPENDENCY">
+      <point x="0.0" y="-14.5" />
+      <point x="402.1042458808614" y="488.0" />
+      <point x="517.7243346007602" y="488.0" />
+      <point x="-51.0" y="60.0" />
+    </edge>
+    <edge source="dat.startcode.control.AddToShoppingCart" target="dat.startcode.model.entities.OrderLine" relationship="CREATE">
+      <point x="-68.0" y="-27.0" />
+      <point x="34.0" y="675.0" />
+      <point x="119.5" y="675.0" />
+      <point x="119.5" y="285.0" />
+      <point x="152.5" y="285.0" />
+      <point x="152.5" y="245.0" />
+      <point x="240.05766793409362" y="245.0" />
+      <point x="-42.666666666666664" y="82.0" />
+    </edge>
+    <edge source="dat.startcode.control.CreateUserServlet" target="dat.startcode.model.config.ApplicationStart" relationship="DEPENDENCY">
+      <point x="-72.66666666666674" y="-27.0" />
+      <point x="1907.3076679340934" y="685.0" />
+      <point x="1916.620247148288" y="685.0" />
+      <point x="1916.620247148288" y="625.0" />
+      <point x="1416.7243346007604" y="625.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="dat.startcode.model.persistence.AdminMapper" target="dat.startcode.model.persistence.ConnectionPool" relationship="DEPENDENCY">
+      <point x="-72.66666666666674" y="-27.0" />
+      <point x="1582.5576679340934" y="498.0" />
+      <point x="1200.1153358681865" y="498.0" />
+      <point x="1200.1153358681865" y="468.0" />
+      <point x="1483.7243346007604" y="468.0" />
+      <point x="-52.0" y="60.0" />
+    </edge>
+    <edge source="dat.startcode.control.AdminPanel" target="dat.startcode.model.persistence.ConnectionPool" relationship="TO_ONE">
+      <point x="-1.4210854715202004E-14" y="-27.0" />
+      <point x="1741.9743346007604" y="685.0" />
+      <point x="1774.7243346007604" y="685.0" />
+      <point x="1774.7243346007604" y="488.0" />
+      <point x="1535.7243346007604" y="488.0" />
+      <point x="0.0" y="60.0" />
+    </edge>
+    <edge source="dat.startcode.control.AddToShoppingCart" target="dat.startcode.model.persistence.ConnectionPool" relationship="DEPENDENCY">
+      <point x="68.0" y="-27.0" />
+      <point x="170.0" y="685.0" />
+      <point x="141.5" y="685.0" />
+      <point x="141.5" y="498.0" />
+      <point x="1200.1153358681865" y="498.0" />
+      <point x="1200.1153358681865" y="468.0" />
+      <point x="1483.7243346007604" y="468.0" />
+      <point x="-52.0" y="60.0" />
+    </edge>
+    <edge source="dat.startcode.model.persistence.OrderMapper" target="dat.startcode.model.exceptions.DatabaseException" relationship="CREATE">
+      <point x="-81.75" y="-27.0" />
+      <point x="375.25" y="685.0" />
+      <point x="177.10424588086153" y="685.0" />
+      <point x="177.10424588086153" y="255.0" />
+      <point x="1389.9743346007604" y="255.0" />
+      <point x="1389.9743346007604" y="195.0" />
+      <point x="1456.2243346007601" y="195.0" />
+      <point x="-43.0" y="14.5" />
+    </edge>
+    <edge source="dat.startcode.persistence.UserMapperTest" target="dat.startcode.model.persistence.ConnectionPool" relationship="TO_ONE">
+      <point x="-72.33333333333331" y="-71.0" />
+      <point x="2439.125" y="685.0" />
+      <point x="2358.136248415715" y="685.0" />
+      <point x="2358.136248415715" y="635.0" />
+      <point x="2342.141001267427" y="635.0" />
+      <point x="2342.141001267427" y="488.0" />
+      <point x="1535.7243346007604" y="488.0" />
+      <point x="0.0" y="60.0" />
+    </edge>
+    <edge source="dat.startcode.control.Logout" target="dat.startcode.model.persistence.ConnectionPool" relationship="TO_ONE">
+      <point x="54.5" y="-27.0" />
+      <point x="1233.7243346007604" y="488.0" />
+      <point x="1535.7243346007604" y="488.0" />
+      <point x="0.0" y="60.0" />
+    </edge>
+    <edge source="dat.startcode.persistence.UserMapperTest" target="dat.startcode.model.entities.User" relationship="CREATE">
+      <point x="0.0" y="-71.0" />
+      <point x="2511.458333333333" y="685.0" />
+      <point x="2610.740335868187" y="685.0" />
+      <point x="2610.740335868187" y="665.0" />
+      <point x="2642.615335868187" y="665.0" />
+      <point x="2642.615335868187" y="235.0" />
+      <point x="2593.141001267427" y="235.0" />
+      <point x="2593.141001267427" y="215.0" />
+      <point x="2611.141001267427" y="215.0" />
+      <point x="34.0" y="60.0" />
+    </edge>
+    <edge source="dat.startcode.control.RemoveFromCart" target="dat.startcode.model.entities.OrderLine" relationship="DEPENDENCY">
+      <point x="-54.5" y="-27.0" />
+      <point x="1239.1202471482877" y="685.0" />
+      <point x="1092.719581749048" y="685.0" />
+      <point x="1092.719581749048" y="635.0" />
+      <point x="1022.9695817490481" y="635.0" />
+      <point x="1022.9695817490481" y="265.0" />
+      <point x="670.3076679340936" y="265.0" />
+      <point x="670.3076679340936" y="215.0" />
+      <point x="325.391001267427" y="215.0" />
+      <point x="42.66666666666666" y="82.0" />
+    </edge>
+    <edge source="dat.startcode.control.BuyServlet" target="dat.startcode.model.persistence.ConnectionPool" relationship="TO_ONE">
+      <point x="-1.4210854715202004E-14" y="-38.0" />
+      <point x="703.8702471482877" y="635.0" />
+      <point x="856.7452471482877" y="635.0" />
+      <point x="856.7452471482877" y="488.0" />
+      <point x="1535.7243346007604" y="488.0" />
+      <point x="0.0" y="60.0" />
+    </edge>
+    <edge source="dat.startcode.model.persistence.AdminMapper" target="dat.startcode.model.exceptions.DatabaseException" relationship="CREATE">
+      <point x="72.66666666666663" y="-27.0" />
+      <point x="1727.8910012674269" y="468.0" />
+      <point x="1854.8653358681868" y="468.0" />
+      <point x="1854.8653358681868" y="255.0" />
+      <point x="1389.9743346007604" y="255.0" />
+      <point x="1389.9743346007604" y="195.0" />
+      <point x="1456.2243346007601" y="195.0" />
+      <point x="-43.0" y="14.5" />
+    </edge>
+    <edge source="dat.startcode.control.AdminPanel" target="dat.startcode.model.config.ApplicationStart" relationship="DEPENDENCY">
+      <point x="72.66666666666669" y="-27.0" />
+      <point x="1814.6410012674269" y="685.0" />
+      <point x="1865.8653358681868" y="685.0" />
+      <point x="1865.8653358681868" y="635.0" />
+      <point x="1416.7243346007604" y="635.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="dat.startcode.control.Login" target="dat.startcode.model.exceptions.DatabaseException" relationship="DEPENDENCY">
+      <point x="-72.66666666666674" y="-27.0" />
+      <point x="2145.307667934094" y="685.0" />
+      <point x="2115.7195817490483" y="685.0" />
+      <point x="2115.7195817490483" y="605.0" />
+      <point x="2133.120247148288" y="605.0" />
+      <point x="2133.120247148288" y="225.0" />
+      <point x="2257.75" y="225.0" />
+      <point x="2257.75" y="185.0" />
+      <point x="1542.2243346007601" y="185.0" />
+      <point x="43.0" y="14.5" />
+    </edge>
+    <edge source="dat.startcode.control.CupcakeServlet" target="dat.startcode.model.exceptions.DatabaseException" relationship="DEPENDENCY">
+      <point x="72.66666666666669" y="-27.0" />
+      <point x="1014.5369138149545" y="685.0" />
+      <point x="1000.9695817490481" y="685.0" />
+      <point x="1000.9695817490481" y="635.0" />
+      <point x="989.9695817490481" y="635.0" />
+      <point x="989.9695817490481" y="225.0" />
+      <point x="2257.75" y="225.0" />
+      <point x="2257.75" y="185.0" />
+      <point x="1542.2243346007601" y="185.0" />
+      <point x="43.0" y="14.5" />
+    </edge>
+    <edge source="dat.startcode.model.persistence.UserMapper" target="dat.startcode.model.persistence.IUserMapper" relationship="REALIZATION">
+      <point x="81.75" y="-27.0" />
+      <point x="2543.391001267427" y="468.0" />
+      <point x="2564.615335868187" y="468.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="dat.startcode.control.RemoveFromCart" target="dat.startcode.model.persistence.ConnectionPool" relationship="DEPENDENCY">
+      <point x="-54.5" y="-27.0" />
+      <point x="1239.1202471482877" y="685.0" />
+      <point x="1092.719581749048" y="685.0" />
+      <point x="1092.719581749048" y="635.0" />
+      <point x="1059.7243346007604" y="635.0" />
+      <point x="1059.7243346007604" y="498.0" />
+      <point x="1200.1153358681865" y="498.0" />
+      <point x="1200.1153358681865" y="468.0" />
+      <point x="1483.7243346007604" y="468.0" />
+      <point x="-52.0" y="60.0" />
+    </edge>
+    <edge source="dat.startcode.control.Cart" target="dat.startcode.model.entities.OrderLine" relationship="TO_MANY">
+      <point x="-51.0" y="-27.0" />
+      <point x="238.60424588086153" y="275.0" />
+      <point x="282.72433460076036" y="275.0" />
+      <point x="-7.105427357601002E-15" y="82.0" />
+    </edge>
+    <edge source="dat.startcode.control.BuyServlet" target="dat.startcode.model.persistence.CupcakeMapper" relationship="CREATE">
+      <point x="-72.66666666666669" y="-38.0" />
+      <point x="631.203580481621" y="685.0" />
+      <point x="612.2452471482877" y="685.0" />
+      <point x="612.2452471482877" y="625.0" />
+      <point x="751.7243346007602" y="625.0" />
+      <point x="751.7243346007602" y="605.0" />
+      <point x="682.7452471482877" y="605.0" />
+      <point x="-54.5" y="27.0" />
+    </edge>
+    <edge source="dat.startcode.model.persistence.IOrderMapper" target="dat.startcode.model.entities.OrderLine" relationship="DEPENDENCY">
+      <point x="0.0" y="-14.5" />
+      <point x="402.1042458808614" y="265.0" />
+      <point x="670.3076679340936" y="265.0" />
+      <point x="670.3076679340936" y="215.0" />
+      <point x="325.391001267427" y="215.0" />
+      <point x="42.66666666666666" y="82.0" />
+    </edge>
+    <edge source="dat.startcode.control.BuyServlet" target="dat.startcode.model.persistence.CupcakeMapper" relationship="TO_ONE">
+      <point x="-1.4210854715202004E-14" y="-38.0" />
+      <point x="703.8702471482877" y="635.0" />
+      <point x="791.7452471482877" y="635.0" />
+      <point x="54.5" y="27.0" />
+    </edge>
+    <edge source="dat.startcode.model.entities.Order" target="dat.startcode.model.entities.OrderLine" relationship="DEPENDENCY">
+      <point x="51.0" y="-60.0" />
+      <point x="618.7292458808614" y="265.0" />
+      <point x="670.3076679340936" y="265.0" />
+      <point x="670.3076679340936" y="215.0" />
+      <point x="325.391001267427" y="215.0" />
+      <point x="42.66666666666666" y="82.0" />
+    </edge>
+    <edge source="dat.startcode.control.CupcakeServlet" target="dat.startcode.model.config.ApplicationStart" relationship="DEPENDENCY">
+      <point x="72.66666666666669" y="-27.0" />
+      <point x="1014.5369138149545" y="685.0" />
+      <point x="1000.9695817490481" y="685.0" />
+      <point x="1000.9695817490481" y="665.0" />
+      <point x="1416.7243346007604" y="665.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="dat.startcode.control.BuyServlet" target="dat.startcode.model.exceptions.DatabaseException" relationship="DEPENDENCY">
+      <point x="72.66666666666669" y="-38.0" />
+      <point x="776.5369138149545" y="685.0" />
+      <point x="894.9952471482877" y="685.0" />
+      <point x="894.9952471482877" y="225.0" />
+      <point x="2257.75" y="225.0" />
+      <point x="2257.75" y="185.0" />
+      <point x="1542.2243346007601" y="185.0" />
+      <point x="43.0" y="14.5" />
+    </edge>
+    <edge source="dat.startcode.persistence.UserMapperTest" target="dat.startcode.model.exceptions.DatabaseException" relationship="DEPENDENCY">
+      <point x="72.33333333333331" y="-71.0" />
+      <point x="2583.7916666666665" y="675.0" />
+      <point x="2653.615335868187" y="675.0" />
+      <point x="2653.615335868187" y="225.0" />
+      <point x="2257.75" y="225.0" />
+      <point x="2257.75" y="185.0" />
+      <point x="1542.2243346007601" y="185.0" />
+      <point x="43.0" y="14.5" />
+    </edge>
+    <edge source="dat.startcode.model.persistence.UserMapper" target="dat.startcode.model.persistence.ConnectionPool" relationship="TO_ONE">
+      <point x="-27.25" y="-27.0" />
+      <point x="2434.391001267427" y="488.0" />
+      <point x="1535.7243346007604" y="488.0" />
+      <point x="0.0" y="60.0" />
+    </edge>
+    <edge source="dat.startcode.control.CupcakeServlet" target="dat.startcode.model.persistence.CupcakeMapper" relationship="CREATE">
+      <point x="-72.66666666666669" y="-27.0" />
+      <point x="869.2035804816211" y="615.0" />
+      <point x="751.7243346007602" y="615.0" />
+      <point x="751.7243346007602" y="605.0" />
+      <point x="682.7452471482877" y="605.0" />
+      <point x="-54.5" y="27.0" />
+    </edge>
+    <edge source="dat.startcode.model.config.ApplicationStart" target="dat.startcode.model.persistence.ConnectionPool" relationship="TO_ONE">
+      <point x="-54.25" y="-27.0" />
+      <point x="1362.4743346007604" y="488.0" />
+      <point x="1535.7243346007604" y="488.0" />
+      <point x="0.0" y="60.0" />
+    </edge>
+    <edge source="dat.startcode.model.persistence.CupcakeMapper" target="dat.startcode.model.persistence.ConnectionPool" relationship="DEPENDENCY">
+      <point x="-72.66666666666669" y="-27.0" />
+      <point x="664.578580481621" y="508.0" />
+      <point x="733.9583333333334" y="508.0" />
+      <point x="733.9583333333334" y="478.0" />
+      <point x="1200.1153358681865" y="478.0" />
+      <point x="1200.1153358681865" y="468.0" />
+      <point x="1483.7243346007604" y="468.0" />
+      <point x="-52.0" y="60.0" />
+    </edge>
+    <edge source="dat.startcode.control.BuyServlet" target="dat.startcode.model.config.ApplicationStart" relationship="DEPENDENCY">
+      <point x="72.66666666666669" y="-38.0" />
+      <point x="776.5369138149545" y="685.0" />
+      <point x="894.9952471482877" y="685.0" />
+      <point x="894.9952471482877" y="655.0" />
+      <point x="1416.7243346007604" y="655.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="dat.startcode.control.RemoveFromCart" target="dat.startcode.model.persistence.ConnectionPool" relationship="TO_ONE">
+      <point x="54.5" y="-27.0" />
+      <point x="1348.1202471482877" y="685.0" />
+      <point x="1535.7243346007604" y="685.0" />
+      <point x="0.0" y="60.0" />
+    </edge>
+    <edge source="dat.startcode.control.RemoveFromCart" target="dat.startcode.model.config.ApplicationStart" relationship="DEPENDENCY">
+      <point x="-54.5" y="-27.0" />
+      <point x="1239.1202471482877" y="685.0" />
+      <point x="1092.719581749048" y="685.0" />
+      <point x="1092.719581749048" y="675.0" />
+      <point x="1416.7243346007604" y="675.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="dat.startcode.control.BuyServlet" target="dat.startcode.model.entities.OrderLine" relationship="DEPENDENCY">
+      <point x="72.66666666666669" y="-38.0" />
+      <point x="776.5369138149545" y="685.0" />
+      <point x="894.9952471482877" y="685.0" />
+      <point x="894.9952471482877" y="605.0" />
+      <point x="867.7452471482877" y="605.0" />
+      <point x="867.7452471482877" y="265.0" />
+      <point x="670.3076679340936" y="265.0" />
+      <point x="670.3076679340936" y="215.0" />
+      <point x="325.391001267427" y="215.0" />
+      <point x="42.66666666666666" y="82.0" />
+    </edge>
+    <edge source="dat.startcode.control.BuyServlet" target="dat.startcode.model.entities.Order" relationship="CREATE">
+      <point x="-72.66666666666669" y="-38.0" />
+      <point x="631.203580481621" y="685.0" />
+      <point x="612.2452471482877" y="685.0" />
+      <point x="612.2452471482877" y="615.0" />
+      <point x="584.2403358681865" y="615.0" />
+      <point x="584.2403358681865" y="478.0" />
+      <point x="618.7292458808614" y="478.0" />
+      <point x="51.0" y="60.0" />
+    </edge>
+    <edge source="dat.startcode.model.persistence.UserMapper" target="dat.startcode.model.persistence.ConnectionPool" relationship="DEPENDENCY">
+      <point x="-81.75" y="-27.0" />
+      <point x="2379.891001267427" y="498.0" />
+      <point x="1200.1153358681868" y="498.0" />
+      <point x="1200.1153358681865" y="468.0" />
+      <point x="1483.7243346007604" y="468.0" />
+      <point x="-52.0" y="60.0" />
+    </edge>
+    <edge source="dat.startcode.control.Login" target="dat.startcode.model.persistence.ConnectionPool" relationship="TO_ONE">
+      <point x="0.0" y="-27.0" />
+      <point x="2217.9743346007604" y="665.0" />
+      <point x="2163.2195817490483" y="665.0" />
+      <point x="2163.2195817490483" y="488.0" />
+      <point x="1535.7243346007604" y="488.0" />
+      <point x="0.0" y="60.0" />
+    </edge>
+    <edge source="dat.startcode.control.Cart" target="dat.startcode.model.entities.OrderLine" relationship="DEPENDENCY">
+      <point x="51.0" y="-27.0" />
+      <point x="340.6042458808615" y="265.0" />
+      <point x="670.3076679340936" y="265.0" />
+      <point x="670.3076679340936" y="215.0" />
+      <point x="325.391001267427" y="215.0" />
+      <point x="42.66666666666666" y="82.0" />
+    </edge>
+    <edge source="dat.startcode.model.persistence.IUserMapper" target="dat.startcode.model.exceptions.DatabaseException" relationship="DEPENDENCY">
+      <point x="0.0" y="-14.5" />
+      <point x="2564.615335868187" y="245.0" />
+      <point x="2364.625" y="245.0" />
+      <point x="2364.625" y="195.0" />
+      <point x="2257.75" y="195.0" />
+      <point x="2257.75" y="185.0" />
+      <point x="1542.2243346007601" y="185.0" />
+      <point x="43.0" y="14.5" />
+    </edge>
+    <edge source="dat.startcode.model.persistence.CupcakeMapper" target="dat.startcode.model.exceptions.DatabaseException" relationship="CREATE">
+      <point x="0.0" y="-27.0" />
+      <point x="737.2452471482877" y="468.0" />
+      <point x="744.9583333333334" y="468.0" />
+      <point x="744.9583333333334" y="255.0" />
+      <point x="1389.9743346007604" y="255.0" />
+      <point x="1389.9743346007604" y="195.0" />
+      <point x="1456.2243346007601" y="195.0" />
+      <point x="-43.0" y="14.5" />
+    </edge>
+    <edge source="dat.startcode.control.Logout" target="dat.startcode.model.persistence.ConnectionPool" relationship="DEPENDENCY">
+      <point x="-54.5" y="-27.0" />
+      <point x="1124.7243346007604" y="498.0" />
+      <point x="1200.1153358681865" y="498.0" />
+      <point x="1200.1153358681865" y="468.0" />
+      <point x="1483.7243346007604" y="468.0" />
+      <point x="-52.0" y="60.0" />
+    </edge>
+    <edge source="dat.startcode.model.persistence.OrderMapper" target="dat.startcode.model.persistence.ConnectionPool" relationship="TO_ONE">
+      <point x="81.75" y="-27.0" />
+      <point x="538.75" y="635.0" />
+      <point x="573.2403358681865" y="635.0" />
+      <point x="573.2403358681865" y="488.0" />
+      <point x="1535.7243346007601" y="488.0" />
+      <point x="0.0" y="60.0" />
+    </edge>
+    <edge source="dat.startcode.persistence.UserMapperTest" target="dat.startcode.model.persistence.UserMapper" relationship="CREATE">
+      <point x="0.0" y="-71.0" />
+      <point x="2511.458333333333" y="685.0" />
+      <point x="2610.740335868187" y="685.0" />
+      <point x="2610.740335868187" y="655.0" />
+      <point x="2173.7195817490483" y="655.0" />
+      <point x="2173.7195817490483" y="645.0" />
+      <point x="2407.141001267427" y="645.0" />
+      <point x="-54.5" y="27.0" />
+    </edge>
+    <edge source="dat.startcode.control.CupcakeServlet" target="dat.startcode.model.persistence.ConnectionPool" relationship="TO_ONE">
+      <point x="0.0" y="-27.0" />
+      <point x="941.8702471482877" y="635.0" />
+      <point x="978.9695817490481" y="635.0" />
+      <point x="978.9695817490481" y="488.0" />
+      <point x="1535.7243346007604" y="488.0" />
+      <point x="0.0" y="60.0" />
+    </edge>
+    <edge source="dat.startcode.control.CreateUserServlet" target="dat.startcode.model.exceptions.DatabaseException" relationship="DEPENDENCY">
+      <point x="-72.66666666666674" y="-27.0" />
+      <point x="1907.3076679340934" y="685.0" />
+      <point x="1916.620247148288" y="685.0" />
+      <point x="1916.620247148288" y="468.0" />
+      <point x="2059.375" y="468.0" />
+      <point x="2059.375" y="225.0" />
+      <point x="2257.75" y="225.0" />
+      <point x="2257.75" y="185.0" />
+      <point x="1542.2243346007601" y="185.0" />
+      <point x="43.0" y="14.5" />
+    </edge>
+    <edge source="dat.startcode.control.CreateUserServlet" target="dat.startcode.model.persistence.ConnectionPool" relationship="DEPENDENCY">
+      <point x="-72.66666666666674" y="-27.0" />
+      <point x="1907.3076679340934" y="685.0" />
+      <point x="1916.620247148288" y="685.0" />
+      <point x="1916.620247148288" y="498.0" />
+      <point x="1200.1153358681868" y="498.0" />
+      <point x="1200.1153358681865" y="468.0" />
+      <point x="1483.7243346007604" y="468.0" />
+      <point x="-52.0" y="60.0" />
+    </edge>
+    <edge source="dat.startcode.control.AdminPanel" target="dat.startcode.model.persistence.ConnectionPool" relationship="DEPENDENCY">
+      <point x="72.66666666666669" y="-27.0" />
+      <point x="1814.6410012674269" y="685.0" />
+      <point x="1865.8653358681868" y="685.0" />
+      <point x="1865.8653358681868" y="605.0" />
+      <point x="1835.375" y="605.0" />
+      <point x="1835.375" y="498.0" />
+      <point x="1200.1153358681865" y="498.0" />
+      <point x="1200.1153358681865" y="468.0" />
+      <point x="1483.7243346007604" y="468.0" />
+      <point x="-52.0" y="60.0" />
+    </edge>
+    <edge source="dat.startcode.model.config.ApplicationStart" target="dat.startcode.model.persistence.ConnectionPool" relationship="CREATE">
+      <point x="54.25" y="-27.0" />
+      <point x="1470.9743346007604" y="478.0" />
+      <point x="2122.620247148288" y="478.0" />
+      <point x="2122.620247148288" y="448.0" />
+      <point x="1587.7243346007604" y="448.0" />
+      <point x="52.0" y="60.0" />
+    </edge>
+    <edge source="dat.startcode.model.persistence.UserMapper" target="dat.startcode.model.exceptions.DatabaseException" relationship="CREATE">
+      <point x="27.25" y="-27.0" />
+      <point x="2488.891001267427" y="508.0" />
+      <point x="2477.141001267427" y="508.0" />
+      <point x="2477.141001267427" y="255.0" />
+      <point x="1389.9743346007604" y="255.0" />
+      <point x="1389.9743346007604" y="195.0" />
+      <point x="1456.2243346007601" y="195.0" />
+      <point x="-43.0" y="14.5" />
+    </edge>
+    <edge source="dat.startcode.control.AdminPanel" target="dat.startcode.model.exceptions.DatabaseException" relationship="DEPENDENCY">
+      <point x="72.66666666666669" y="-27.0" />
+      <point x="1814.6410012674269" y="685.0" />
+      <point x="1865.8653358681868" y="685.0" />
+      <point x="1865.8653358681868" y="458.0" />
+      <point x="1904.719581749048" y="458.0" />
+      <point x="1904.719581749048" y="225.0" />
+      <point x="2257.75" y="225.0" />
+      <point x="2257.75" y="185.0" />
+      <point x="1542.2243346007601" y="185.0" />
+      <point x="43.0" y="14.5" />
+    </edge>
+    <edge source="dat.startcode.control.Login" target="dat.startcode.model.config.ApplicationStart" relationship="DEPENDENCY">
+      <point x="-72.66666666666674" y="-27.0" />
+      <point x="2145.307667934094" y="685.0" />
+      <point x="2115.7195817490483" y="685.0" />
+      <point x="2115.7195817490483" y="615.0" />
+      <point x="1416.7243346007604" y="615.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="dat.startcode.model.persistence.UserMapper" target="dat.startcode.model.entities.User" relationship="CREATE">
+      <point x="27.25" y="-27.0" />
+      <point x="2488.891001267427" y="508.0" />
+      <point x="2477.141001267427" y="508.0" />
+      <point x="2477.141001267427" y="468.0" />
+      <point x="2486.615335868187" y="468.0" />
+      <point x="2486.615335868187" y="235.0" />
+      <point x="2593.141001267427" y="235.0" />
+      <point x="2593.141001267427" y="215.0" />
+      <point x="2611.141001267427" y="215.0" />
+      <point x="34.0" y="60.0" />
+    </edge>
+    <edge source="dat.startcode.control.AdminPanel" target="dat.startcode.model.persistence.AdminMapper" relationship="CREATE">
+      <point x="-72.66666666666669" y="-27.0" />
+      <point x="1669.3076679340936" y="685.0" />
+      <point x="1655.2243346007604" y="685.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="dat.startcode.model.persistence.AdminMapper" target="dat.startcode.model.persistence.ConnectionPool" relationship="TO_ONE">
+      <point x="0.0" y="-27.0" />
+      <point x="1655.2243346007604" y="488.0" />
+      <point x="1535.7243346007604" y="488.0" />
+      <point x="0.0" y="60.0" />
+    </edge>
+    <edge source="dat.startcode.control.AddToShoppingCart" target="dat.startcode.model.entities.OrderLine" relationship="TO_MANY">
+      <point x="0.0" y="-27.0" />
+      <point x="102.0" y="685.0" />
+      <point x="130.5" y="685.0" />
+      <point x="130.5" y="275.0" />
+      <point x="282.72433460076036" y="275.0" />
+      <point x="-7.105427357601002E-15" y="82.0" />
+    </edge>
+    <edge source="dat.startcode.control.CreateUserServlet" target="dat.startcode.model.persistence.ConnectionPool" relationship="TO_ONE">
+      <point x="0.0" y="-27.0" />
+      <point x="1979.9743346007604" y="685.0" />
+      <point x="1976.875" y="685.0" />
+      <point x="1976.875" y="488.0" />
+      <point x="1535.7243346007604" y="488.0" />
+      <point x="0.0" y="60.0" />
+    </edge>
+    <edge source="dat.startcode.control.CupcakeServlet" target="dat.startcode.model.persistence.ConnectionPool" relationship="DEPENDENCY">
+      <point x="72.66666666666669" y="-27.0" />
+      <point x="1014.5369138149545" y="685.0" />
+      <point x="1000.9695817490481" y="685.0" />
+      <point x="1000.9695817490481" y="635.0" />
+      <point x="1011.9695817490481" y="635.0" />
+      <point x="1011.9695817490481" y="498.0" />
+      <point x="1200.1153358681865" y="498.0" />
+      <point x="1200.1153358681865" y="468.0" />
+      <point x="1483.7243346007604" y="468.0" />
+      <point x="-52.0" y="60.0" />
+    </edge>
+    <edge source="dat.startcode.control.Login" target="dat.startcode.model.persistence.ConnectionPool" relationship="DEPENDENCY">
+      <point x="-72.66666666666674" y="-27.0" />
+      <point x="2145.307667934094" y="685.0" />
+      <point x="2115.7195817490483" y="685.0" />
+      <point x="2115.7195817490483" y="605.0" />
+      <point x="2093.97433460076" y="605.0" />
+      <point x="2093.97433460076" y="498.0" />
+      <point x="1200.1153358681865" y="498.0" />
+      <point x="1200.1153358681865" y="468.0" />
+      <point x="1483.7243346007604" y="468.0" />
+      <point x="-52.0" y="60.0" />
+    </edge>
+    <edge source="dat.startcode.model.persistence.OrderMapper" target="dat.startcode.model.persistence.IOrderMapper" relationship="REALIZATION">
+      <point x="-27.25" y="-27.0" />
+      <point x="429.75" y="635.0" />
+      <point x="402.1042458808614" y="635.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="dat.startcode.model.entities.Order" target="dat.startcode.model.entities.OrderLine" relationship="TO_MANY">
+      <point x="-51.0" y="-60.0" />
+      <point x="516.7292458808614" y="275.0" />
+      <point x="282.72433460076036" y="275.0" />
+      <point x="-7.105427357601002E-15" y="82.0" />
+    </edge>
+    <edge source="dat.startcode.control.AdminPanel" target="dat.startcode.model.entities.User" relationship="DEPENDENCY">
+      <point x="72.66666666666669" y="-27.0" />
+      <point x="1814.6410012674269" y="685.0" />
+      <point x="1865.8653358681868" y="685.0" />
+      <point x="1865.8653358681868" y="605.0" />
+      <point x="1867.375" y="605.0" />
+      <point x="1867.375" y="468.0" />
+      <point x="1904.719581749048" y="468.0" />
+      <point x="1904.719581749048" y="205.0" />
+      <point x="2488.391001267427" y="205.0" />
+      <point x="2488.391001267427" y="195.0" />
+      <point x="2543.141001267427" y="195.0" />
+      <point x="-34.0" y="60.0" />
+    </edge>
+    <edge source="dat.startcode.control.AddToShoppingCart" target="dat.startcode.model.config.ApplicationStart" relationship="DEPENDENCY">
+      <point x="68.0" y="-27.0" />
+      <point x="170.0" y="685.0" />
+      <point x="141.5" y="685.0" />
+      <point x="141.5" y="645.0" />
+      <point x="1416.7243346007604" y="645.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="dat.startcode.model.persistence.OrderMapper" target="dat.startcode.model.entities.OrderLine" relationship="CREATE">
+      <point x="-81.75" y="-27.0" />
+      <point x="375.25" y="685.0" />
+      <point x="177.10424588086153" y="685.0" />
+      <point x="177.10424588086153" y="285.0" />
+      <point x="152.5" y="285.0" />
+      <point x="152.5" y="245.0" />
+      <point x="240.05766793409362" y="245.0" />
+      <point x="-42.666666666666664" y="82.0" />
+    </edge>
+    <edge source="dat.startcode.persistence.UserMapperTest" target="dat.startcode.model.persistence.UserMapper" relationship="TO_ONE">
+      <point x="-72.33333333333331" y="-71.0" />
+      <point x="2439.125" y="685.0" />
+      <point x="2358.136248415715" y="685.0" />
+      <point x="2358.136248415715" y="635.0" />
+      <point x="2516.141001267427" y="635.0" />
+      <point x="54.5" y="27.0" />
+    </edge>
+    <edge source="dat.startcode.model.persistence.IUserMapper" target="dat.startcode.model.entities.User" relationship="DEPENDENCY">
+      <point x="0.0" y="-14.5" />
+      <point x="2564.615335868187" y="245.0" />
+      <point x="2364.625" y="245.0" />
+      <point x="2364.625" y="215.0" />
+      <point x="2488.391001267427" y="215.0" />
+      <point x="2488.391001267427" y="195.0" />
+      <point x="2543.141001267427" y="195.0" />
+      <point x="-34.0" y="60.0" />
+    </edge>
+    <edge source="dat.startcode.control.BuyServlet" target="dat.startcode.model.persistence.ConnectionPool" relationship="DEPENDENCY">
+      <point x="72.66666666666669" y="-38.0" />
+      <point x="776.5369138149545" y="685.0" />
+      <point x="894.9952471482877" y="685.0" />
+      <point x="894.9952471482877" y="498.0" />
+      <point x="1200.1153358681865" y="498.0" />
+      <point x="1200.1153358681865" y="468.0" />
+      <point x="1483.7243346007604" y="468.0" />
+      <point x="-52.0" y="60.0" />
+    </edge>
+    <edge source="dat.startcode.model.persistence.CupcakeMapper" target="dat.startcode.model.persistence.ConnectionPool" relationship="TO_ONE">
+      <point x="72.66666666666669" y="-27.0" />
+      <point x="809.9119138149545" y="488.0" />
+      <point x="1535.7243346007601" y="488.0" />
+      <point x="0.0" y="60.0" />
+    </edge>
+    <edge source="dat.startcode.model.persistence.OrderMapper" target="dat.startcode.model.entities.Order" relationship="DEPENDENCY">
+      <point x="27.25" y="-27.0" />
+      <point x="484.25" y="685.0" />
+      <point x="528.7243346007602" y="685.0" />
+      <point x="528.7243346007602" y="635.0" />
+      <point x="517.7243346007602" y="635.0" />
+      <point x="-51.0" y="60.0" />
+    </edge>
+    <edge source="dat.startcode.model.persistence.IOrderMapper" target="dat.startcode.model.exceptions.DatabaseException" relationship="DEPENDENCY">
+      <point x="0.0" y="-14.5" />
+      <point x="402.1042458808615" y="225.0" />
+      <point x="2257.75" y="225.0" />
+      <point x="2257.75" y="185.0" />
+      <point x="1542.2243346007601" y="185.0" />
+      <point x="43.0" y="14.5" />
+    </edge>
+    <edge source="dat.startcode.control.CreateUserServlet" target="dat.startcode.model.persistence.UserMapper" relationship="CREATE">
+      <point x="72.66666666666663" y="-27.0" />
+      <point x="2052.641001267427" y="675.0" />
+      <point x="2173.7195817490483" y="675.0" />
+      <point x="2173.7195817490483" y="645.0" />
+      <point x="2407.141001267427" y="645.0" />
+      <point x="-54.5" y="27.0" />
+    </edge>
+    <edge source="dat.startcode.control.BuyServlet" target="dat.startcode.model.entities.User" relationship="DEPENDENCY">
+      <point x="72.66666666666669" y="-38.0" />
+      <point x="776.5369138149545" y="685.0" />
+      <point x="894.9952471482877" y="685.0" />
+      <point x="894.9952471482877" y="205.0" />
+      <point x="2488.391001267427" y="205.0" />
+      <point x="2488.391001267427" y="195.0" />
+      <point x="2543.141001267427" y="195.0" />
+      <point x="-34.0" y="60.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="0.5499999999999999" showDependencies="true" x="621.6363636363637" y="440.4740259740261" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
